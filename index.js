@@ -31,10 +31,10 @@ function prependKitten() {
   return moreKittens;
 }
 
-function removeLastKitten(kittens) {
+function removeLastKitten(array) {
   return kittens.slice(0, kittens.length - 1);
 }
 
-function removeFirstKitten(kittens) {
+function removeFirstKitten(array) {
   return kittens.slice(1);
 }
