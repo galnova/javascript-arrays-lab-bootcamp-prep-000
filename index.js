@@ -12,19 +12,21 @@ function destructivelyPrependKitten() {
 }
 
 function destructivelyRemoveLastKitten() {
-  return kitten.pop("Garfield");
+  return kittens.pop("Garfield");
   
 }
 
 function destructivelyRemoveFirstKitten() {
-  return kitten.shift("Milo");
+  return kittens.shift("Milo");
   
 }
 
 function appendKitten() {
-  
+  var moreKittens = [...kittens, "Ralph"];
+  return moreKittens;
 }
 
 function prependKitten() {
-  
+  var moreKittens = ["Ralph", ...kittens];
+  return moreKittens;
 }
