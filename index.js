@@ -12,10 +12,12 @@ function destructivelyPrependKitten() {
 }
 
 function destructivelyRemoveLastKitten() {
+  return kitten.pop("Garfield");
   
 }
 
 function destructivelyRemoveFirstKitten() {
+  return kitten.shift("Milo");
   
 }
 
